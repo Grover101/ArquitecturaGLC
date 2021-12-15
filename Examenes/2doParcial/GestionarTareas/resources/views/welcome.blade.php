@@ -21,19 +21,5 @@
         </style>
     </head>
     <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                <div class="text-center">
-                    <h1 class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-                        {{ __('Bienvenidos a la Agenda 2021') }}
-                    </h1>
-                    <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg">
-                        {{ __('Este esun ejemplo de la aplicacion delmodelo vista controlador enlaravel') }}
-                    </p>
-                    <a href="{{route('tarea.index')}}" style="color: white;">Tareas</a>
-                </div>
-
-            
-        </div>
     </body>
 </html>
