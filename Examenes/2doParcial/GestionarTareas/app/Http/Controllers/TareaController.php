@@ -14,12 +14,12 @@ class TareaController extends Controller
      */
     public function index()
     {
-        $tarea = Tarea::get();
+        $tareas = Tarea::get();
 
         return view(
             'tarea.index',
             [
-                'tarea' => $tarea
+                'tareas' => $tareas
             ]
         );
     }
