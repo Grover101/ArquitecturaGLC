@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="singleton">
+  <ClassDiagramComponents>
+    <Class name="SingleObject" package="singleton" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="instance" type="SingleObject" visibility="private" isStatic="true"/>
+        <Field name="mensaje" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="private"/>
+      </Constructors>
+      <Methods>
+        <Method name="getInstance" returnType="SingleObject" visibility="public" isStatic="true"/>
+        <Method name="getMensaje" returnType="String" visibility="public"/>
+        <Method name="setMensaje" returnType="void" visibility="public">
+          <Argument type="String" name="mensaje"/>
+        </Method>
+        <Method name="Mensaje" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Singleton" package="singleton" visibility="public" xPosition="442.0" yPosition="55.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="singleton.SingleObject" target="singleton.SingleObject" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="instance" source="singleton.SingleObject" target="singleton.SingleObject" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
