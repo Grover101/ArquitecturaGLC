@@ -1,2 +1,0 @@
-gestionarviaje.Alumno
-gestionarviaje.Sexo
